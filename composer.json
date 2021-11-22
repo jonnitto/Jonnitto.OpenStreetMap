@@ -1,0 +1,35 @@
+{
+    "name": "jonnitto/openstreetmap",
+    "type": "neos-plugin",
+    "license": "GPL-3.0-or-later",
+    "description": "OpenStreetMap integration for Neos CMS. Live preview. Multiple addresses.",
+    "keywords": [
+        "flow",
+        "neos",
+        "OpenStreetMap",
+        "Map"
+    ],
+    "authors": [
+        {
+            "name": "Jon Uhlmann",
+            "email": "hello@uhlmann.pro",
+            "homepage": "https://uhlmann.pro",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "neos/neos": "^7.3",
+        "carbon/cbd": "^0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jonnitto\\OpenStreetMap\\": "Classes"
+        }
+    },
+    "extra": {
+        "installer-name": "Jonnitto.OpenStreetMap",
+        "neos": {
+            "package-key": "Jonnitto.OpenStreetMap"
+        }
+    }
+}

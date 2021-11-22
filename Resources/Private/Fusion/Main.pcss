@@ -1,0 +1,30 @@
+@import "_Leaflet.css";
+
+/* This is the map container */
+.map__canvas {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+}
+
+.map__canvas--grayscale .leaflet-tile-pane {
+  filter: grayscale(1);
+}
+
+.map__canvas--dark .leaflet-tile-pane {
+  filter: grayscale(1) invert(1);
+}
+
+.map__canvas .map-address > * {
+  display: block;
+}
+
+.map__canvas .leaflet-control-attribution a:not([class]) {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.map__canvas .leaflet-control-attribution a:not([class]):hover,
+.map__canvas .leaflet-control-attribution a:not([class]):focus {
+  text-decoration: none;
+}

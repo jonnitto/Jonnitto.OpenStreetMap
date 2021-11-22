@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2"
+    xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="Jonnitto.OpenStreetMap" source-language="en" target-language="de" datatype="plaintext">
+        <body>
+            <trans-unit id="properties.colorShift" xml:space="preserve">
+                <source>Color scheme</source>
+                <target>Farbgebung</target>
+            </trans-unit>
+            <trans-unit id="properties.colorShift.selectBoxEditor.placeholder" xml:space="preserve">
+                <source>Default</source>
+                <target>Standard</target>
+            </trans-unit>
+            <trans-unit id="properties.colorShift.selectBoxEditor.values.grayscale" xml:space="preserve">
+                <source>Grayscale</source>
+                <target>Graustufen</target>
+            </trans-unit>
+            <trans-unit id="properties.colorShift.selectBoxEditor.values.dark" xml:space="preserve">
+                <source>Dark mode</source>
+                <target>Dunkle Darstellung</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

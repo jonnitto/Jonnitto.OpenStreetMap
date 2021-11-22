@@ -1,0 +1,11 @@
+'Jonnitto.OpenStreetMap:Mixin.LatLng':
+  abstract: true
+  properties:
+    lat:
+      type: string
+      ui:
+        inlineEditable: true
+    lng:
+      type: string
+      ui:
+        inlineEditable: true

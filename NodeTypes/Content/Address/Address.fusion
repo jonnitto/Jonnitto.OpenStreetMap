@@ -1,0 +1,35 @@
+prototype(Jonnitto.OpenStreetMap:Content.Address) < prototype(Neos.Neos:ContentComponent) {
+    name = ${q(node).property('name')}
+    street = ${q(node).property('street')}
+    postCode = ${q(node).property('postCode')}
+    city = ${q(node).property('city')}
+    country = ${q(node).property('country')}
+    lat = ${q(node).property('lat')}
+    lng = ${q(node).property('lng')}
+    content = ${q(node).property('text')}
+    editable = ${node.context.inBackend}
+
+    renderer = Jonnitto.OpenStreetMap:Presentation.Address {
+        @apply.props = ${props}
+
+        @process.wrap = Jonnitto.OpenStreetMap:Presentation.Map {
+            @if.inCBDModeAndHasCoordinates = ${props.cbd && props.lat && props.lng}
+            mode = 'edit'
+            editable = true
+            coordinates = ${[{'lat': props.lat, 'lng': props.lng}]}
+            content = ${value}
+            colorShift = ${q(node).parent().property('colorShift')}
+            inlineEditor = Jonnitto.OpenStreetMap:Presentation.CoordinatesTable {
+                lat = Neos.Neos:Editable {
+                    property = 'lat'
+                    block = false
+                }
+                lng = Neos.Neos:Editable {
+                    property = 'lng'
+                    block = false
+                }
+            }
+        }
+    }
+}
+

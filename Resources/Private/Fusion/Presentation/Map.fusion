@@ -1,0 +1,46 @@
+prototype(Jonnitto.OpenStreetMap:Presentation.Map) < prototype(Neos.Fusion:Component) {
+    content = null
+    mode = 'live'
+    data = Neos.Fusion:DataStructure
+    coordinates = ${this.data.coordinates}
+    coordinates.@process {
+        calculate = ${Carbon.Array.check(value) ? Jonnitto.OpenStreetMap.centerFromCoordinates(value) : null}
+        createObject = ${value ? {'center': value} : null}
+    }
+
+    settings = Neos.Fusion:DataStructure {
+        @process.filter = ${Array.filter(value)}
+    }
+
+    editable = ${this.data.editable}
+    aspectRatio = ${Configuration.Setting('Jonnitto.OpenStreetMap.aspectRatio')}
+    colorShift = ${this.data.colorShift || Configuration.Setting('Jonnitto.OpenStreetMap.colorShift')}
+
+    js = ${StaticResource.uri('Jonnitto.OpenStreetMap', 'Public/Scripts/' + (this.editable ? 'Backend' : 'Main') + '.js')}
+    css = ${StaticResource.uri('Jonnitto.OpenStreetMap', 'Public/Styles/Main.css')}
+
+    @if.hasContent = ${this.content}
+    _settingsFromData = ${Type.isArray(this.data.settings) ? Array.filter(this.data.settings) : []}
+
+    renderer = afx`
+        <div
+            class={BEM.modifier('map', props.mode)}
+            style={props.mode == 'live' ? 'visibility:hidden' : null}
+            data-map={Json.stringify(Array.filter(Array.concat(props.coordinates, props.settings, props._settingsFromData)))}
+        >
+            <link @if.set={props.css} rel="stylesheet" href={props.css} data-slipstream />
+            <script
+                @if.set={props.data.js || props.js}
+                src={props.data.js || props.js}
+                data-slipstream defer 
+                data-settings={Json.stringify(Configuration.Setting('Jonnitto.OpenStreetMap.settings'))}
+            ></script>
+            <div
+                class={BEM.modifier('map__canvas', [props.mode, props.colorShift])}
+                style={'aspect-ratio:' + props.aspectRatio}>
+                {props.content}
+            </div>
+            {props.inlineEditor}
+        </div>
+    `
+}

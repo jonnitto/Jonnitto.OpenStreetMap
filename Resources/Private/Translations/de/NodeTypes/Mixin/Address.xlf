@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2"
+    xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="Jonnitto.OpenStreetMap" source-language="en" target-language="de" datatype="plaintext">
+        <body>
+            <trans-unit id="groups.address" xml:space="preserve">
+                <source>Address</source>
+                <target>Adresse</target>
+            </trans-unit>
+            <trans-unit id="properties.street" xml:space="preserve">
+                <source>Street and number</source>
+                <target>Straße und Hausnummer</target>
+            </trans-unit>
+            <trans-unit id="properties.postCode" xml:space="preserve">
+                <source>Postal code</source>
+                <target>Postleitzahl</target>
+            </trans-unit>
+            <trans-unit id="properties.city" xml:space="preserve">
+                <source>City</source>
+                <target>Stadt</target>
+            </trans-unit>
+            <trans-unit id="properties.country" xml:space="preserve">
+                <source>Country</source>
+                <target>Land</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

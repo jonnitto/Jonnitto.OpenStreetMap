@@ -1,0 +1,18 @@
+'Jonnitto.OpenStreetMap:Mixin.MaxZoom':
+  abstract: true
+  properties:
+    maxZoom:
+      type: integer
+      defaultValue: 20
+      ui:
+        label: i18n
+        reloadPageIfChanged: true
+        inspector:
+          group: map
+          position: 10
+          editor: 'Neos.Neos/Inspector/Editors/RangeEditor'
+          editorOptions:
+            min: 0
+            max: 17
+            step: 1
+            unit: ''

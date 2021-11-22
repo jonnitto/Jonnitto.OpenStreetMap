@@ -1,0 +1,14 @@
+Neos:
+  Fusion:
+    defaultContext:
+      Jonnitto.OpenStreetMap: 'Jonnitto\OpenStreetMap\EelHelper\MapHelper'
+  Neos:
+    fusion:
+      autoInclude:
+        Jonnitto.OpenStreetMap: true
+    userInterface:
+      translation:
+        autoInclude:
+          Jonnitto.OpenStreetMap:
+            - 'Countries'
+            - 'NodeTypes/*'

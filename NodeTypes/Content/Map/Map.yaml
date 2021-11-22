@@ -1,0 +1,18 @@
+'Jonnitto.OpenStreetMap:Content.Map':
+  superTypes:
+    'Carbon.CBD:Mixin.Element': true
+    # 'Jonnitto.OpenStreetMap:Mixin.MaxZoom': true
+    # 'Jonnitto.OpenStreetMap:Mixin.ColorShift': true
+  label: "${I18n.translate('label', 'Map with {0} addresses', [q(node).children().count()], 'NodeTypes/Content/Map', 'Jonnitto.OpenStreetMap', q(node).children().count())}"
+  ui:
+    label: i18n
+    icon: map-marked
+    inspector:
+      groups:
+        map:
+          label: i18n
+          icon: map-marked
+          position: 10
+  constraints:
+    nodeTypes:
+      'Jonnitto.OpenStreetMap:Content.Address': true

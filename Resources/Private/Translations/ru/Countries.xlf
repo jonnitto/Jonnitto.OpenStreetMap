@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2"
+  xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file original="" product-name="Jonnitto.OpenStreetMap" datatype="plaintext" source-language="en" target-language="ru">
+    <body>
+      <trans-unit id="ad">
+        <source>Andorra</source>
+        <target>Андорра</target>
+      </trans-unit>
+      <trans-unit id="ae">
+        <source>United Arab Emirates</source>
+        <target>Объединённые Арабские Эмираты</target>
+      </trans-unit>
+      <trans-unit id="af">
+        <source>Afghanistan</source>
+        <target>Афганистан</target>
+      </trans-unit>
+      <trans-unit id="ag">
+        <source>Antigua and Barbuda</source>
+        <target>Антигуа и Барбуда</target>
+      </trans-unit>
+      <trans-unit id="ai">
+        <source>Anguilla</source>
+        <target>Ангилья</target>
+      </trans-unit>
+      <trans-unit id="al">
+        <source>Albania</source>
+        <target>Албания</target>
+      </trans-unit>
+      <trans-unit id="am">
+        <source>Armenia</source>
+        <target>Армения</target>
+      </trans-unit>
+      <trans-unit id="ao">
+        <source>Angola</source>
+        <target>Ангола</target>
+      </trans-unit>
+      <trans-unit id="aq">
+        <source>Antarctica</source>
+        <target>Антарктида</target>
+      </trans-unit>
+      <trans-unit id="ar">
+        <source>Argentina</source>
+        <target>Аргентина</target>
+      </trans-unit>
+      <trans-unit id="as">
+        <source>American Samoa</source>
+        <target>Американское Самоа</target>
+      </trans-unit>
+      <trans-unit id="at">
+        <source>Austria</source>
+        <target>Австрия</target>
+      </trans-unit>
+      <trans-unit id="au">
+        <source>Australia</source>
+        <target>Австралия</target>
+      </trans-unit>
+      <trans-unit id="aw">
+        <source>Aruba</source>
+        <target>Аруба</target>
+      </trans-unit>
+      <trans-unit id="ax">
+        <source>Åland Islands</source>
+        <target>Аландские острова</target>
+      </trans-unit>
+      <trans-unit id="az">
+        <source>Azerbaijan</source>
+        <target>Азербайджан</target>
+      </trans-unit>
+      <trans-unit id="ba">
+        <source>Bosnia and Herzegovina</source>
+        <target>Босния и Герцеговина</target>
+      </trans-unit>
+      <trans-unit id="bb">
+        <source>Barbados</source>
+        <target>Барбадос</target>
+      </trans-unit>
+      <trans-unit id="bd">
+        <source>Bangladesh</source>
+        <target>Бангладеш</target>
+      </trans-unit>
+      <trans-unit id="be">
+        <source>Belgium</source>
+        <target>Бельгия</target>
+      </trans-unit>
+      <trans-unit id="bf">
+        <source>Burkina Faso</source>
+        <target>Буркина-Фасо</target>
+      </trans-unit>
+      <trans-unit id="bg">
+        <source>Bulgaria</source>
+        <target>Болгария</target>
+      </trans-unit>
+      <trans-unit id="bh">
+        <source>Bahrain</source>
+        <target>Бахрейн</target>
+      </trans-unit>
+      <trans-unit id="bi">
+        <source>Burundi</source>
+        <target>Бурунди</target>
+      </trans-unit>
+      <trans-unit id="bj">
+        <source>Benin</source>
+        <target>Бенин</target>
+      </trans-unit>
+      <trans-unit id="bl">
+        <source>St. Barthélemy</source>
+        <target>Сен-Бартелеми</target>
+      </trans-unit>
+      <trans-unit id="bm">
+        <source>Bermuda</source>
+        <target>Бермуды</target>
+      </trans-unit>
+      <trans-unit id="bn">
+        <source>Brunei</source>
+        <target>Бруней</target>
+      </trans-unit>
+      <trans-unit id="bo">
+        <source>Bolivia</source>
+        <target>Боливия</target>
+      </trans-unit>
+      <trans-unit id="bq">
+        <source>Caribbean Netherlands</source>
+        <target>Карибские Нидерланды</target>
+      </trans-unit>
+      <trans-unit id="br">
+        <source>Brazil</source>
+        <target>Бразилия</target>
+      </trans-unit>
+      <trans-unit id="bs">
+        <source>Bahamas</source>
+        <target>Багамы</target>
+      </trans-unit>
+      <trans-unit id="bt">
+        <source>Bhutan</source>
+        <target>Бутан</target>
+      </trans-unit>
+      <trans-unit id="bv">
+        <source>Bouvet Island</source>
+        <target>Буве, остров</target>
+      </trans-unit>
+      <trans-unit id="bw">
+        <source>Botswana</source>
+        <target>Ботсвана</target>
+      </trans-unit>
+      <trans-unit id="by">
+        <source>Belarus</source>
+        <target>Белорусия</target>
+      </trans-unit>
+      <trans-unit id="bz">
+        <source>Belize</source>
+        <target>Белиз</target>
+      </trans-unit>
+      <trans-unit id="ca">
+        <source>Canada</source>
+        <target>Канада</target>
+      </trans-unit>
+      <trans-unit id="cc">
+        <source>Cocos (Keeling) Islands</source>
+        <target>Кокосовые острова</target>
+      </trans-unit>
+      <trans-unit id="cd">
+        <source>Congo - Kinshasa</source>
+        <target>Киншаса, провинция (Республика Конго)</target>
+      </trans-unit>
+      <trans-unit id="cf">
+        <source>Central African Republic</source>
+        <target>Центрально-Африканская Республика</target>
+      </trans-unit>
+      <trans-unit id="cg">
+        <source>Congo - Brazzaville</source>
+        <target>Браззавиль (Республика Конго)</target>
+      </trans-unit>
+      <trans-unit id="ch">
+        <source>Switzerland</source>
+        <target>Швейцария</target>
+      </trans-unit>
+      <trans-unit id="ci">
+        <source>Côte d'Ivoire</source>
+        <target>Кот-д'ивуар</target>
+      </trans-unit>
+      <trans-unit id="ck">
+        <source>Cook Islands</source>
+        <target>Кука, острова</target>
+      </trans-unit>
+      <trans-unit id="cl">
+        <source>Chile</source>
+        <target>Чили</target>
+      </trans-unit>
+      <trans-unit id="cm">
+        <source>Cameroon</source>
+        <target>Камерун</target>
+      </trans-unit>
+      <trans-unit id="cn">
+        <source>China</source>
+        <target>Китай</target>
+      </trans-unit>
+      <trans-unit id="co">
+        <source>Colombia</source>
+        <target>Колумбия</target>
+      </trans-unit>
+      <trans-unit id="cr">
+        <source>Costa Rica</source>
+        <target>Коста-Рика</target>
+      </trans-unit>
+      <trans-unit id="cu">
+        <source>Cuba</source>
+        <target>Куба</target>
+      </trans-unit>
+      <trans-unit id="cv">
+        <source>Cape Verde</source>
+        <target>Капе Верде</target>
+      </trans-unit>
+      <trans-unit id="cw">
+        <source>Curaçao</source>
+        <target>Кюрасао</target>
+      </trans-unit>
+      <trans-unit id="cx">
+        <source>Christmas Island</source>
+        <target>Рождества, остров</target>
+      </trans-unit>
+      <trans-unit id="cy">
+        <source>Cyprus</source>
+        <target>Кипр</target>
+      </trans-unit>
+      <trans-unit id="cz">
+        <source>Czechia</source>
+        <target>Чехия</target>
+      </trans-unit>
+      <trans-unit id="de">
+        <source>Germany</source>
+        <target>Германия</target>
+      </trans-unit>
+      <trans-unit id="dj">
+        <source>Djibouti</source>
+        <target>Джибути</target>
+      </trans-unit>
+      <trans-unit id="dk">
+        <source>Denmark</source>
+        <target>Дания</target>
+      </trans-unit>
+      <trans-unit id="dm">
+        <source>Dominica</source>
+        <target>Доминика</target>
+      </trans-unit>
+      <trans-unit id="do">
+        <source>Dominican Republic</source>
+        <target>Доминиканская Республика</target>
+      </trans-unit>
+      <trans-unit id="dz">
+        <source>Algeria</source>
+        <target>Алжир</target>
+      </trans-unit>
+      <trans-unit id="ea">
+        <source>Ceuta and Melilla</source>
+        <target>Сеута и Мелилья</target>
+      </trans-unit>
+      <trans-unit id="ec">
+        <source>Ecuador</source>
+        <target>Эквадор</target>
+      </trans-unit>
+      <trans-unit id="ee">
+        <source>Estonia</source>
+        <target>Эстония</target>
+      </trans-unit>
+      <trans-unit id="eg">
+        <source>Egypt</source>
+        <target>Египет</target>
+      </trans-unit>
+      <trans-unit id="eh">
+        <source>Western Sahara</source>
+        <target>Западная Сахара</target>
+      </trans-unit>
+      <trans-unit id="er">
+        <source>Eritrea</source>
+        <target>Эритрея</target>
+      </trans-unit>
+      <trans-unit id="es">
+        <source>Spain</source>
+        <target>Испания</target>
+      </trans-unit>
+      <trans-unit id="et">
+        <source>Ethiopia</source>
+        <target>Эфиопия</target>
+      </trans-unit>
+      <trans-unit id="fi">
+        <source>Finland</source>
+        <target>Финляндия</target>
+      </trans-unit>
+      <trans-unit id="fj">
+        <source>Fiji</source>
+        <target>Фиджи</target>
+      </trans-unit>
+      <trans-unit id="fk">
+        <source>Falkland Islands</source>
+        <target>Фолклендские острова</target>
+      </trans-unit>
+      <trans-unit id="fm">
+        <source>Micronesia</source>
+        <target>Микронезия</target>
+      </trans-unit>
+      <trans-unit id="fo">
+        <source>Faroe Islands</source>
+        <target>Фарерские острова</target>
+      </trans-unit>
+      <trans-unit id="fr">
+        <source>France</source>
+        <target>Франция</target>
+      </trans-unit>
+      <trans-unit id="ga">
+        <source>Gabon</source>
+        <target>Габон</target>
+      </trans-unit>
+      <trans-unit id="gb">
+        <source>United Kingdom</source>
+        <target>Великобритания</target>
+      </trans-unit>
+      <trans-unit id="gd">
+        <source>Grenada</source>
+        <target>Гренада</target>
+      </trans-unit>
+      <trans-unit id="ge">
+        <source>Georgia</source>
+        <target>Грузия</target>
+      </trans-unit>
+      <trans-unit id="gf">
+        <source>French Guiana</source>
+        <target>Французская Гвиана</target>
+      </trans-unit>
+      <trans-unit id="gg">
+        <source>Guernsey</source>
+        <target>Гернси, остров</target>
+      </trans-unit>
+      <trans-unit id="gh">
+        <source>Ghana</source>
+        <target>Гана</target>
+      </trans-unit>
+      <trans-unit id="gi">
+        <source>Gibraltar</source>
+        <target>Гибралтар</target>
+      </trans-unit>
+      <trans-unit id="gl">
+        <source>Greenland</source>
+        <target>Гренландия</target>
+      </trans-unit>
+      <trans-unit id="gm">
+        <source>Gambia</source>
+        <target>Гамбия</target>
+      </trans-unit>
+      <trans-unit id="gn">
+        <source>Guinea</source>
+        <target>Гвинея</target>
+      </trans-unit>
+      <trans-unit id="gp">
+        <source>Guadeloupe</source>
+        <target>Гваделупа</target>
+      </trans-unit>
+      <trans-unit id="gq">
+        <source>Equatorial Guinea</source>
+        <target>Экваториальная Гвинея</target>
+      </trans-unit>
+      <trans-unit id="gr">
+        <source>Greece</source>
+        <target>Греция</target>
+      </trans-unit>
+      <trans-unit id="gs">
+        <source>South Georgia and South Sandwich Islands</source>
+        <target>Южная Георгия и Южные Сандвичевы острова</target>
+      </trans-unit>
+      <trans-unit id="gt">
+        <source>Guatemala</source>
+        <target>Гватемала</target>
+      </trans-unit>
+      <trans-unit id="gu">
+        <source>Guam</source>
+        <target>Гуам, остров</target>
+      </trans-unit>
+      <trans-unit id="gw">
+        <source>Guinea-Bissau</source>
+        <target>Гвинея-Биссау</target>
+      </trans-unit>
+      <trans-unit id="gy">
+        <source>Guyana</source>
+        <target>Гайана</target>
+      </trans-unit>
+      <trans-unit id="hk">
+        <source>Hong Kong</source>
+        <target>Гонконг</target>
+      </trans-unit>
+      <trans-unit id="hm">
+        <source>Heard and McDonald Islands</source>
+        <target>Херд и Макдональд, острова</target>
+      </trans-unit>
+      <trans-unit id="hn">
+        <source>Honduras</source>
+        <target>Гондурас</target>
+      </trans-unit>
+      <trans-unit id="hr">
+        <source>Croatia</source>
+        <target>Хорватия</target>
+      </trans-unit>
+      <trans-unit id="ht">
+        <source>Haiti</source>
+        <target>Гаити</target>
+      </trans-unit>
+      <trans-unit id="hu">
+        <source>Hungary</source>
+        <target>Венгрия</target>
+      </trans-unit>
+      <trans-unit id="ic">
+        <source>Canary Islands</source>
+        <target>Канарские острова</target>
+      </trans-unit>
+      <trans-unit id="id">
+        <source>Indonesia</source>
+        <target>Индонезия</target>
+      </trans-unit>
+      <trans-unit id="ie">
+        <source>Ireland</source>
+        <target>Ирландия</target>
+      </trans-unit>
+      <trans-unit id="il">
+        <source>Israel</source>
+        <target>Израиль</target>
+      </trans-unit>
+      <trans-unit id="im">
+        <source>Isle of Man</source>
+        <target>Мэн, остров</target>
+      </trans-unit>
+      <trans-unit id="in">
+        <source>India</source>
+        <target>Индия</target>
+      </trans-unit>
+      <trans-unit id="io">
+        <source>British Indian Ocean Territory</source>
+        <target>Британские территории Индийского океана</target>
+      </trans-unit>
+      <trans-unit id="iq">
+        <source>Iraq</source>
+        <target>Ирак</target>
+      </trans-unit>
+      <trans-unit id="ir">
+        <source>Iran</source>
+        <target>Иран</target>
+      </trans-unit>
+      <trans-unit id="is">
+        <source>Iceland</source>
+        <target>Исландия</target>
+      </trans-unit>
+      <trans-unit id="it">
+        <source>Italy</source>
+        <target>Италия</target>
+      </trans-unit>
+      <trans-unit id="je">
+        <source>Jersey</source>
+        <target>Джерси, остров</target>
+      </trans-unit>
+      <trans-unit id="jm">
+        <source>Jamaica</source>
+        <target>Ямайка</target>
+      </trans-unit>
+      <trans-unit id="jo">
+        <source>Jordan</source>
+        <target>Иордания</target>
+      </trans-unit>
+      <trans-unit id="jp">
+        <source>Japan</source>
+        <target>Япония</target>
+      </trans-unit>
+      <trans-unit id="ke">
+        <source>Kenya</source>
+        <target>Кения</target>
+      </trans-unit>
+      <trans-unit id="kg">
+        <source>Kyrgyzstan</source>
+        <target>Киргизия</target>
+      </trans-unit>
+      <trans-unit id="kh">
+        <source>Cambodia</source>
+        <target>Кампучия</target>
+      </trans-unit>
+      <trans-unit id="ki">
+        <source>Kiribati</source>
+        <target>Кирибати</target>
+      </trans-unit>
+      <trans-unit id="km">
+        <source>Comoros</source>
+        <target>Коморские острова</target>
+      </trans-unit>
+      <trans-unit id="kn">
+        <source>St. Kitts and Nevis</source>
+        <target>Сент-Китс и Невис (Федерация)</target>
+      </trans-unit>
+      <trans-unit id="kp">
+        <source>North Korea</source>
+        <target>Северная Корея</target>
+      </trans-unit>
+      <trans-unit id="kr">
+        <source>South Korea</source>
+        <target>Южная Корея</target>
+      </trans-unit>
+      <trans-unit id="kw">
+        <source>Kuwait</source>
+        <target>Кувейт</target>
+      </trans-unit>
+      <trans-unit id="ky">
+        <source>Cayman Islands</source>
+        <target>Каймановы острова</target>
+      </trans-unit>
+      <trans-unit id="kz">
+        <source>Kazakhstan</source>
+        <target>Казахстан</target>
+      </trans-unit>
+      <trans-unit id="la">
+        <source>Laos</source>
+        <target>Лаос</target>
+      </trans-unit>
+      <trans-unit id="lb">
+        <source>Lebanon</source>
+        <target>Лебанон</target>
+      </trans-unit>
+      <trans-unit id="lc">
+        <source>St. Lucia</source>
+        <target>Сент-Люсия, остров</target>
+      </trans-unit>
+      <trans-unit id="li">
+        <source>Liechtenstein</source>
+        <target>Лихтенштейн</target>
+      </trans-unit>
+      <trans-unit id="lk">
+        <source>Sri Lanka</source>
+        <target>Шри-Ланка</target>
+      </trans-unit>
+      <trans-unit id="lr">
+        <source>Liberia</source>
+        <target>Либерия</target>
+      </trans-unit>
+      <trans-unit id="ls">
+        <source>Lesotho</source>
+        <target>Лесото</target>
+      </trans-unit>
+      <trans-unit id="lt">
+        <source>Lithuania</source>
+        <target>Литва</target>
+      </trans-unit>
+      <trans-unit id="lu">
+        <source>Luxembourg</source>
+        <target>Люксембург</target>
+      </trans-unit>
+      <trans-unit id="lv">
+        <source>Latvia</source>
+        <target>Латвия</target>
+      </trans-unit>
+      <trans-unit id="ly">
+        <source>Libya</source>
+        <target>Ливия</target>
+      </trans-unit>
+      <trans-unit id="ma">
+        <source>Morocco</source>
+        <target>Марокко</target>
+      </trans-unit>
+      <trans-unit id="mc">
+        <source>Monaco</source>
+        <target>Монако</target>
+      </trans-unit>
+      <trans-unit id="md">
+        <source>Moldova</source>
+        <target>Молдавия</target>
+      </trans-unit>
+      <trans-unit id="me">
+        <source>Montenegro</source>
+        <target>Черногория</target>
+      </trans-unit>
+      <trans-unit id="mf">
+        <source>St. Martin</source>
+        <target>Сен-Мартен, остров</target>
+      </trans-unit>
+      <trans-unit id="mg">
+        <source>Madagascar</source>
+        <target>Мадагаскар</target>
+      </trans-unit>
+      <trans-unit id="mh">
+        <source>Marshall Islands</source>
+        <target>Маршалловы острова</target>
+      </trans-unit>
+      <trans-unit id="mk">
+        <source>North Macedonia</source>
+        <target>Северная Македония</target>
+      </trans-unit>
+      <trans-unit id="ml">
+        <source>Mali</source>
+        <target>Мали</target>
+      </trans-unit>
+      <trans-unit id="mm">
+        <source>Myanmar</source>
+        <target>Мьянма</target>
+      </trans-unit>
+      <trans-unit id="mn">
+        <source>Mongolia</source>
+        <target>Монголия</target>
+      </trans-unit>
+      <trans-unit id="mo">
+        <source>Macao</source>
+        <target>Макао</target>
+      </trans-unit>
+      <trans-unit id="mp">
+        <source>Northern Mariana Islands</source>
+        <target>Северные Марианские острова</target>
+      </trans-unit>
+      <trans-unit id="mq">
+        <source>Martinique</source>
+        <target>Мартиника</target>
+      </trans-unit>
+      <trans-unit id="mr">
+        <source>Mauritania</source>
+        <target>Мавритания</target>
+      </trans-unit>
+      <trans-unit id="ms">
+        <source>Montserrat</source>
+        <target>Монтсеррат</target>
+      </trans-unit>
+      <trans-unit id="mt">
+        <source>Malta</source>
+        <target>Мальта</target>
+      </trans-unit>
+      <trans-unit id="mu">
+        <source>Mauritius</source>
+        <target>Маврикий, остров</target>
+      </trans-unit>
+      <trans-unit id="mv">
+        <source>Maldives</source>
+        <target>Мальдивы</target>
+      </trans-unit>
+      <trans-unit id="mw">
+        <source>Malawi</source>
+        <target>Малави</target>
+      </trans-unit>
+      <trans-unit id="mx">
+        <source>Mexico</source>
+        <target>Мексика</target>
+      </trans-unit>
+      <trans-unit id="my">
+        <source>Malaysia</source>
+        <target>Малайзия</target>
+      </trans-unit>
+      <trans-unit id="mz">
+        <source>Mozambique</source>
+        <target>Мозамбик</target>
+      </trans-unit>
+      <trans-unit id="na">
+        <source>Namibia</source>
+        <target>Намибия</target>
+      </trans-unit>
+      <trans-unit id="nc">
+        <source>New Caledonia</source>
+        <target>Новая Каледония</target>
+      </trans-unit>
+      <trans-unit id="ne">
+        <source>Niger</source>
+        <target>Нигер</target>
+      </trans-unit>
+      <trans-unit id="nf">
+        <source>Norfolk Island</source>
+        <target>Норфолка, остров</target>
+      </trans-unit>
+      <trans-unit id="ng">
+        <source>Nigeria</source>
+        <target>Нигерия</target>
+      </trans-unit>
+      <trans-unit id="ni">
+        <source>Nicaragua</source>
+        <target>Никарагуа</target>
+      </trans-unit>
+      <trans-unit id="nl">
+        <source>Netherlands</source>
+        <target>Нидерланды</target>
+      </trans-unit>
+      <trans-unit id="no">
+        <source>Norway</source>
+        <target>Норвегия</target>
+      </trans-unit>
+      <trans-unit id="np">
+        <source>Nepal</source>
+        <target>Непал</target>
+      </trans-unit>
+      <trans-unit id="nr">
+        <source>Nauru</source>
+        <target>Науру</target>
+      </trans-unit>
+      <trans-unit id="nu">
+        <source>Niue</source>
+        <target>Ниуэ, остров</target>
+      </trans-unit>
+      <trans-unit id="nz">
+        <source>New Zealand</source>
+        <target>Новая Зеландия</target>
+      </trans-unit>
+      <trans-unit id="om">
+        <source>Oman</source>
+        <target>Оман</target>
+      </trans-unit>
+      <trans-unit id="pa">
+        <source>Panama</source>
+        <target>Панама</target>
+      </trans-unit>
+      <trans-unit id="pe">
+        <source>Peru</source>
+        <target>Перу</target>
+      </trans-unit>
+      <trans-unit id="pf">
+        <source>French Polynesia</source>
+        <target>Французская Полинезия</target>
+      </trans-unit>
+      <trans-unit id="pg">
+        <source>Papua New Guinea</source>
+        <target>Папуа-Новая Гвинея</target>
+      </trans-unit>
+      <trans-unit id="ph">
+        <source>Philippines</source>
+        <target>Филиппины</target>
+      </trans-unit>
+      <trans-unit id="pk">
+        <source>Pakistan</source>
+        <target>Пакистан</target>
+      </trans-unit>
+      <trans-unit id="pl">
+        <source>Poland</source>
+        <target>Польша</target>
+      </trans-unit>
+      <trans-unit id="pm">
+        <source>St. Pierre and Miquelon</source>
+        <target>Сен-Пьер и Микелон</target>
+      </trans-unit>
+      <trans-unit id="pn">
+        <source>Pitcairn Islands</source>
+        <target>Питкэрн, острова</target>
+      </trans-unit>
+      <trans-unit id="pr">
+        <source>Puerto Rico</source>
+        <target>Пуэрто-Рико</target>
+      </trans-unit>
+      <trans-unit id="ps">
+        <source>Palestine</source>
+        <target>Палестина, Государство</target>
+      </trans-unit>
+      <trans-unit id="pt">
+        <source>Portugal</source>
+        <target>Португалия</target>
+      </trans-unit>
+      <trans-unit id="pw">
+        <source>Palau</source>
+        <target>Палау</target>
+      </trans-unit>
+      <trans-unit id="py">
+        <source>Paraguay</source>
+        <target>Парагвай</target>
+      </trans-unit>
+      <trans-unit id="qa">
+        <source>Qatar</source>
+        <target>Катар</target>
+      </trans-unit>
+      <trans-unit id="re">
+        <source>Réunion</source>
+        <target>Реюньон, остров</target>
+      </trans-unit>
+      <trans-unit id="ro">
+        <source>Romania</source>
+        <target>Румыния</target>
+      </trans-unit>
+      <trans-unit id="rs">
+        <source>Serbia</source>
+        <target>Сербия</target>
+      </trans-unit>
+      <trans-unit id="ru">
+        <source>Russia</source>
+        <target>Россия</target>
+      </trans-unit>
+      <trans-unit id="rw">
+        <source>Rwanda</source>
+        <target>Руанда</target>
+      </trans-unit>
+      <trans-unit id="sa">
+        <source>Saudi Arabia</source>
+        <target>Саудовская Аравия</target>
+      </trans-unit>
+      <trans-unit id="sb">
+        <source>Solomon Islands</source>
+        <target>Соломоновы острова</target>
+      </trans-unit>
+      <trans-unit id="sc">
+        <source>Seychelles</source>
+        <target>Сейшелы</target>
+      </trans-unit>
+      <trans-unit id="sd">
+        <source>Sudan</source>
+        <target>Судан</target>
+      </trans-unit>
+      <trans-unit id="se">
+        <source>Sweden</source>
+        <target>Швеция</target>
+      </trans-unit>
+      <trans-unit id="sg">
+        <source>Singapore</source>
+        <target>Сингапур</target>
+      </trans-unit>
+      <trans-unit id="sh">
+        <source>St. Helena</source>
+        <target>Святой Елены, остров</target>
+      </trans-unit>
+      <trans-unit id="si">
+        <source>Slovenia</source>
+        <target>Словения</target>
+      </trans-unit>
+      <trans-unit id="sj">
+        <source>Svalbard and Jan Mayen</source>
+        <target>Свалбард (Шпицберген) и Ян Мейен, острова</target>
+      </trans-unit>
+      <trans-unit id="sk">
+        <source>Slovakia</source>
+        <target>Словакия</target>
+      </trans-unit>
+      <trans-unit id="sl">
+        <source>Sierra Leone</source>
+        <target>Сьерра-Леоне</target>
+      </trans-unit>
+      <trans-unit id="sm">
+        <source>San Marino</source>
+        <target>Сан-Марино</target>
+      </trans-unit>
+      <trans-unit id="sn">
+        <source>Senegal</source>
+        <target>Сенегал</target>
+      </trans-unit>
+      <trans-unit id="so">
+        <source>Somalia</source>
+        <target>Сомали</target>
+      </trans-unit>
+      <trans-unit id="sr">
+        <source>Suriname</source>
+        <target>Суринам</target>
+      </trans-unit>
+      <trans-unit id="ss">
+        <source>South Sudan</source>
+        <target>Южный Судан</target>
+      </trans-unit>
+      <trans-unit id="st">
+        <source>Sao Tome and Principe</source>
+        <target>Сан-Томе и Принсипи</target>
+      </trans-unit>
+      <trans-unit id="sv">
+        <source>El Salvador</source>
+        <target>Сальвадор</target>
+      </trans-unit>
+      <trans-unit id="sx">
+        <source>Sint Maarten</source>
+        <target>Синт-Мартен (Нидерландская часть)</target>
+      </trans-unit>
+      <trans-unit id="sy">
+        <source>Syria</source>
+        <target>Сирия</target>
+      </trans-unit>
+      <trans-unit id="sz">
+        <source>Eswatini</source>
+        <target>Эсватини</target>
+      </trans-unit>
+      <trans-unit id="ta">
+        <source>Tristan da Cunha</source>
+        <target>Тристан-да-Кунья, остров</target>
+      </trans-unit>
+      <trans-unit id="tc">
+        <source>Turks and Caicos Islands</source>
+        <target>Тёркс и Кайкос</target>
+      </trans-unit>
+      <trans-unit id="td">
+        <source>Chad</source>
+        <target>Чад</target>
+      </trans-unit>
+      <trans-unit id="tf">
+        <source>French Southern Territories</source>
+        <target>Южные Французские Территории</target>
+      </trans-unit>
+      <trans-unit id="tg">
+        <source>Togo</source>
+        <target>Того</target>
+      </trans-unit>
+      <trans-unit id="th">
+        <source>Thailand</source>
+        <target>Таиланд</target>
+      </trans-unit>
+      <trans-unit id="tj">
+        <source>Tajikistan</source>
+        <target>Таджикистан</target>
+      </trans-unit>
+      <trans-unit id="tk">
+        <source>Tokelau</source>
+        <target>Токелау, острова</target>
+      </trans-unit>
+      <trans-unit id="tl">
+        <source>Timor-Leste</source>
+        <target>Восточный Тимор</target>
+      </trans-unit>
+      <trans-unit id="tm">
+        <source>Turkmenistan</source>
+        <target>Туркменистан</target>
+      </trans-unit>
+      <trans-unit id="tn">
+        <source>Tunisia</source>
+        <target>Тунис</target>
+      </trans-unit>
+      <trans-unit id="to">
+        <source>Tonga</source>
+        <target>Тонга</target>
+      </trans-unit>
+      <trans-unit id="tr">
+        <source>Turkey</source>
+        <target>Турция</target>
+      </trans-unit>
+      <trans-unit id="tt">
+        <source>Trinidad and Tobago</source>
+        <target>Тринидад и Тобаго</target>
+      </trans-unit>
+      <trans-unit id="tv">
+        <source>Tuvalu</source>
+        <target>Тувалу</target>
+      </trans-unit>
+      <trans-unit id="tw">
+        <source>Taiwan</source>
+        <target>Тайвань</target>
+      </trans-unit>
+      <trans-unit id="tz">
+        <source>Tanzania</source>
+        <target>Танзания</target>
+      </trans-unit>
+      <trans-unit id="ua">
+        <source>Ukraine</source>
+        <target>Украина</target>
+      </trans-unit>
+      <trans-unit id="ug">
+        <source>Uganda</source>
+        <target>Уганда</target>
+      </trans-unit>
+      <trans-unit id="um">
+        <source>U.S. Outlying Islands</source>
+        <target>Внешние малые острова (США)</target>
+      </trans-unit>
+      <trans-unit id="us">
+        <source>United States</source>
+        <target>США</target>
+      </trans-unit>
+      <trans-unit id="uy">
+        <source>Uruguay</source>
+        <target>Уругвай</target>
+      </trans-unit>
+      <trans-unit id="uz">
+        <source>Uzbekistan</source>
+        <target>Узбекистан</target>
+      </trans-unit>
+      <trans-unit id="va">
+        <source>Vatican City</source>
+        <target>Ватикан</target>
+      </trans-unit>
+      <trans-unit id="vc">
+        <source>St. Vincent and Grenadines</source>
+        <target>Сент-Винсент и Гренадины</target>
+      </trans-unit>
+      <trans-unit id="ve">
+        <source>Venezuela</source>
+        <target>Венесуэла</target>
+      </trans-unit>
+      <trans-unit id="vg">
+        <source>British Virgin Islands</source>
+        <target>Виргинские Острова (Великобритания)</target>
+      </trans-unit>
+      <trans-unit id="vi">
+        <source>U.S. Virgin Islands</source>
+        <target>Виргинские острова (США)</target>
+      </trans-unit>
+      <trans-unit id="vn">
+        <source>Vietnam</source>
+        <target>Вьетнам</target>
+      </trans-unit>
+      <trans-unit id="vu">
+        <source>Vanuatu</source>
+        <target>Вануату</target>
+      </trans-unit>
+      <trans-unit id="wf">
+        <source>Wallis and Futuna</source>
+        <target>Уоллис и Футуна, острова</target>
+      </trans-unit>
+      <trans-unit id="ws">
+        <source>Samoa</source>
+        <target>Самоа</target>
+      </trans-unit>
+      <trans-unit id="xk">
+        <source>Kosovo</source>
+        <target>Косово</target>
+      </trans-unit>
+      <trans-unit id="ye">
+        <source>Yemen</source>
+        <target>Йемен</target>
+      </trans-unit>
+      <trans-unit id="yt">
+        <source>Mayotte</source>
+        <target>Майотта, остров</target>
+      </trans-unit>
+      <trans-unit id="za">
+        <source>South Africa</source>
+        <target>ЮАР</target>
+      </trans-unit>
+      <trans-unit id="zm">
+        <source>Zambia</source>
+        <target>Замбия</target>
+      </trans-unit>
+      <trans-unit id="zw">
+        <source>Zimbabwe</source>
+        <target>Зимбабве</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
