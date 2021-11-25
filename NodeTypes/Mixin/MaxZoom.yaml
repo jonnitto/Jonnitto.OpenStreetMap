@@ -3,7 +3,7 @@
   properties:
     maxZoom:
       type: integer
-      defaultValue: 20
+      defaultValue: 17
       ui:
         label: i18n
         reloadPageIfChanged: true
