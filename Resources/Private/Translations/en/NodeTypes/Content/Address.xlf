@@ -6,9 +6,6 @@
             <trans-unit id="ui.label" xml:space="preserve">
                 <source>Address</source>
             </trans-unit>
-            <trans-unit id="properties.name" xml:space="preserve">
-                <source>Name</source>
-            </trans-unit>
         </body>
     </file>
 </xliff>
