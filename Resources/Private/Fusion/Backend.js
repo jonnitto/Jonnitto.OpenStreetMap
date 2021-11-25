@@ -4,31 +4,6 @@ const EVENT_TYPE = "Jonnitto.Map:Presentation.Map";
 
 const DOCUMENT = document;
 
-const checkNodeList = (nodeList, newElement) => {
-    // No node is given, return false
-    if (!nodeList.length) {
-        return false;
-    }
-    const element = nodeList[0];
-
-    // The element is an valid map with coordinates, so return the element
-    if (element.classList.contains("map--edit")) {
-        return element;
-    }
-
-    // The new element has no coordinates, return false
-    if (newElement) {
-        console.warn("The new address has no coordinates");
-        return false;
-    }
-
-    // If the removed element was invalid, return true
-    return element.classList.contains("map-coordinate--invalid");
-};
-
-const checkMutation = (mutation) =>
-    checkNodeList(mutation.removedNodes, false) ? checkNodeList(mutation.addedNodes, true) : null;
-
 const switchCallback = (element, map) => {
     DOCUMENT.addEventListener("carbonCBD", (event) => {
         const detail = event.detail;
@@ -58,8 +33,8 @@ DOCUMENT.addEventListener("carbonCBD", (event) => {
 [...DOCUMENT.querySelectorAll(".carbon-cbd__edit")].forEach((targetNode) => {
     const observer = new MutationObserver((mutationsList) => {
         for (const mutation of mutationsList) {
-            const element = checkMutation(mutation);
-            if (element) {
+            const element = mutation.addedNodes[0];
+            if (element && element.classList.contains("map--edit")) {
                 initMap(element, false);
                 break;
             }
