@@ -54,6 +54,6 @@
           position: 40
           editor: Neos.Neos/Inspector/Editors/SelectBoxEditor
           editorOptions:
-            placeholder: "${I18n.translate(String.toLowerCase(Configuration.Setting('Jonnitto.OpenStreetMap.defaultCountry')), Configuration.Setting('Jonnitto.OpenStreetMap.defaultCountry'), [], 'Countries', 'Jonnitto.OpenStreetMap'}"
+            placeholder: i18n
             allowEmpty: true
             dataSourceIdentifier: jonnitto-openstreetmap-country

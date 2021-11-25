@@ -23,6 +23,10 @@
                 <source>Country</source>
                 <target>Land</target>
             </trans-unit>
+            <trans-unit id="properties.country.selectBoxEditor.placeholder" xml:space="preserve">
+                <source>Please choose the country</source>
+                <target>Bitte Land wählen</target>
+            </trans-unit>
         </body>
     </file>
 </xliff>

@@ -18,6 +18,9 @@
             <trans-unit id="properties.country" xml:space="preserve">
                 <source>Country</source>
             </trans-unit>
+            <trans-unit id="properties.country.selectBoxEditor.placeholder" xml:space="preserve">
+                <source>Please choose the country</source>
+            </trans-unit>
         </body>
     </file>
 </xliff>
