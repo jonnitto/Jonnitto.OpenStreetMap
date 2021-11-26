@@ -1,37 +1,3 @@
-prototype(Jonnitto.OpenStreetMap:Presentation.Address) < prototype(Neos.Fusion:Component) {
-    lat = null
-    lng = null
-    name = null
-    cbd = false
-    content = null
-    maxWith = '500px'
-
-    renderAddress = true
-    renderPostCodeBeforeCity = true
-    renderContentAfterAddress = true
-
-    editable = false
-
-    _hasCoords = ${this.lat && this.lng}
-    @if.hasNeededProps = ${this.editable || this._hasCoords}
-
-    renderer = afx`
-        <Neos.Fusion:Augmenter
-            class={BEM.modifier('map-coordinate', props._hasCoords ? null : 'invalid')}
-            style={props.maxWith && props._hasCoords ? 'max-width:' + props.maxWith : null}
-            data-coordinate={props._hasCoords ? props.lat + ',' + props.lng : null}
-            data-carbon-alert={props._hasCoords ? null : Translation.translate('noCoordinates', 'No address could be found with the given data', [], 'Main', 'Jonnitto.OpenStreetMap')}
-        >
-            {props._hasCoords && props.content && !props.renderContentAfterAddress ? props.content : null}
-            <address class='map-address' @if.set={props._hasCoords}>
-                <strong @if.set={props.name} class='map-address__name'>{props.name} </strong>
-                <span @if.set={props.street} class='map-address__street'>{props.street} </span>
-                <span @if.set={props.postCode || props.city} class='map-address__city'>
-                    {props.renderPostCodeBeforeCity ? props.postCode + ' ' + props.city : props.city + ' ' + props.postCode}{' '}
-                </span>
-                <span @if.set={props.country} class='map-address__country'>{Translation.translate(props.country, String.toUpperCase(props.country), [], 'Countries', 'Jonnitto.OpenStreetMap')} </span>
-            </address>
-            {props._hasCoords && props.content && props.renderContentAfterAddress ? props.content : null}
-        </Neos.Fusion:Augmenter>
-    `
+prototype(Jonnitto.OpenStreetMap:Presentation.Address) < prototype(Carbon.GeoMap:Presentation.Address) {
+    class = 'jonnitto-openstreetmap-coordinate'
 }

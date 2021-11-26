@@ -18,8 +18,7 @@
         }
     ],
     "require": {
-        "neos/neos": "^7.2",
-        "carbon/cbd": "^0.2"
+        "carbon/geomap": "*"
     },
     "autoload": {
         "psr-4": {

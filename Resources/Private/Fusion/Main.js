@@ -1,3 +1,3 @@
-import initMap from "./Presentation/Map.js";
+import { initFunction, initFrontend } from "./Presentation";
 
-[...document.querySelectorAll(".map")].forEach((element) => initMap(element, true));
+initFrontend({ className: "jonnitto-openstreetmap", initFunction });

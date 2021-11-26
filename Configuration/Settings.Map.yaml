@@ -1,8 +1,6 @@
 Jonnitto:
   OpenStreetMap:
-    defaultCountry: CH # ISO-Code from country
-    colorShift: null # null, grayscale or dark
-    colorShiftPreviewPattern: 'resource://Jonnitto.OpenStreetMap/Public/Assets/colorShift-%s.png'
+    mapStyle: null # null, grayscale or dark
     aspectRatio: '16 / 9' # Please use the official CSS syntax: https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio
     settings:
       pinColor: '#009fe3'
@@ -17,8 +15,9 @@ Jonnitto:
       #   url: https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png'
       #   options:
       #     attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+      #     detectRetina: false
 
       mapOptions:
         scrollWheelZoom: false
+        maxZoom: 17
         # minZoom: 2
-        # maxZoom: 18

@@ -1,0 +1,15 @@
+'Jonnitto.OpenStreetMap:Mixin.MapStyle':
+  abstract: true
+  superTypes:
+    'Carbon.GeoMap:Mixin.MapStyle': true
+  properties:
+    mapStyle:
+      ui:
+        inspector:
+          editorOptions:
+            dataSourceAdditionalData:
+              packageKey: Jonnitto.OpenStreetMap
+              styles:
+                - grayscale
+                - dark
+              previewPattern: Assets/mapStyle-%s.png

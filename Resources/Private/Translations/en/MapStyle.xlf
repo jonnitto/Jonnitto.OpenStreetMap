@@ -3,8 +3,11 @@
     xmlns="urn:oasis:names:tc:xliff:document:1.2">
     <file original="" product-name="Jonnitto.OpenStreetMap" source-language="en" datatype="plaintext">
         <body>
-            <trans-unit id="noCoordinates" xml:space="preserve">
-                <source>No address could be found with the given data</source>
+            <trans-unit id="grayscale" xml:space="preserve">
+                <source>Grayscale</source>
+            </trans-unit>
+            <trans-unit id="dark" xml:space="preserve">
+                <source>Dark mode</source>
             </trans-unit>
         </body>
     </file>
