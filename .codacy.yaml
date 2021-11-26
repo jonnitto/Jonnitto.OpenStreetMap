@@ -1,3 +1,4 @@
 ---
 exclude_paths:
   - Resources/Public/**/*
+  - Resources/Private/Fusion/_Leaflet.css
