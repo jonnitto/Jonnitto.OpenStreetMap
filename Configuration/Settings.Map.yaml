@@ -1,6 +1,11 @@
 Jonnitto:
   OpenStreetMap:
     mapStyle: null # null, grayscale or dark
+    # If you want to set the style based on color scheme, please use the following syntax:
+    # mapStyle:
+    #   light: grayscale
+    #   dark: dark
+    #   basedOn: media    # (optional)  media or class (use the CSS class 'dark' on the HTML element), default: media
     aspectRatio: '16 / 9' # Please use the official CSS syntax: https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio
     settings:
       pinColor: '#009fe3'
